@@ -26,6 +26,7 @@ const Links: React.FC<{ links: Link[] }> = ({ links }) => {
 };
 
 const Navbar: React.FC<{}> = () => {
+
   return (
     <nav className={styles.navbar}>
           <div className={styles['logo-container']}>
@@ -34,6 +35,8 @@ const Navbar: React.FC<{}> = () => {
             <Links links={links} />
     </nav>
   )
+
 }
+
 
 export default Navbar;

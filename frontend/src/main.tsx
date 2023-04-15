@@ -8,6 +8,7 @@ import { Home } from "./routes/homepage"
 import Connect from './routes/connect';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ErrorPage from "./error-page";
+import Marketplace from './routes/marketplace';
 
 const router = createBrowserRouter([
   {
@@ -21,8 +22,8 @@ const router = createBrowserRouter([
         element: <Profile />,
       },
       {
-        path: "nancy",
-        //element: <Nancy />,
+        path: "marketplace",
+        element: <Marketplace />,
       },
       {
         path: "connectwallet",

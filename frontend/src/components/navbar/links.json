@@ -1,12 +1,8 @@
 {
     "links": [
         {
-            "label": "Robert",
-            "href": "/robert"
-        },
-        {
-            "label": "Nancy",
-            "href": "/nancy"
+            "label": "Marketplace",
+            "href": "/marketplace"
         },
         {
             "label": "Connect Wallet",
