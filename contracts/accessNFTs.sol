@@ -16,32 +16,28 @@ contract accessNFTs {
         owner = msg.sender;
     }
 
-    function getImage(string _addr) public view returns (string) {
+    function getImage(string memory _addr) public view returns (string memory) {
         // Mapping always returns a value.
         // If the value was never set, it will return the default value.
         return imageMap[_addr];
     }
 
-    function getPrompt(string _addr, string _code) public view returns (string) {
-        if (_code == secretMap[_addr]) {
+    function getPrompt(string memory _addr, string memory _code) public view returns (string memory) {
+        if (keccak256(abi.encodePacked(_code)) == keccak256(abi.encodePacked(secretMap[_addr]))) {
             return promptMap[_addr];
         }
-        return "******"
+        return "******";
     }
 
-    function getToken(string _addr) public view returns (string) {
+    function getToken(string memory _addr) public view returns (string memory) {
         return tokenMap[_addr];
     }
 
-    function setNFT(string contract_address, string memory image, string memory secret, string memory prompt, string memory token) {
-        if (secretMap[contract_address] == "") {
-           imageMap[contract_address] = image;
-           secretMap[contract_address] = secret;
-           promptMap[contract_address] = prompt;
-           tokenMap[contract_address] = token; 
-        }
+    function setNFT(string memory contract_address, string memory image, string memory secret, string memory prompt, string memory token) public {
+        imageMap[contract_address] = image;
+        secretMap[contract_address] = secret;
+        promptMap[contract_address] = prompt;
+        tokenMap[contract_address] = token; 
     }
 
-    // recover the funds of the contract
-    function kill() public { if (msg.sender == owner) selfdestruct(payable(msg.sender)); }
 }
