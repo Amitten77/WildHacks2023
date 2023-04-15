@@ -1,0 +1,480 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        1.1686365604400635,
+        1.177566409111023,
+        1.1775873899459839
+      ],
+      "min": [
+        -1.168635606765747,
+        -1.1777863502502441,
+        -1.178423285484314
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 786384,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9999852180480957,
+        0.999793291091919,
+        0.9999793767929077
+      ],
+      "min": [
+        -0.9999852180480957,
+        -0.9998754262924194,
+        -0.9999871253967285
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9999970197677612,
+        0.9999972581863403,
+        0.9986668229103088,
+        1.0
+      ],
+      "min": [
+        -0.9999971389770508,
+        -0.9999984502792358,
+        -0.9995814561843872,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        1.4810986518859863,
+        0.9909216165542603
+      ],
+      "min": [
+        0.0014229712542146444,
+        0.009077727794647217
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 382020,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1572768,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        1.1686365604400635,
+        1.177487850189209,
+        1.1723965406417847
+      ],
+      "min": [
+        -1.1629359722137451,
+        -1.1772056818008423,
+        -1.1774343252182007
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2359152,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9999852180480957,
+        0.9995893239974976,
+        0.999840497970581
+      ],
+      "min": [
+        -0.999221920967102,
+        -0.999691367149353,
+        -0.9999595880508423
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 1048512,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9999954104423523,
+        0.9999725818634033,
+        0.9986668229103088,
+        1.0
+      ],
+      "min": [
+        -0.9999880194664001,
+        -0.999846339225769,
+        -0.7780935168266296,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 524256,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        1.115298867225647,
+        0.9593982696533203
+      ],
+      "min": [
+        0.006895043421536684,
+        0.018896009773015976
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1528080,
+      "componentType": 5125,
+      "count": 379677,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 3145536,
+      "componentType": 5126,
+      "count": 2365,
+      "max": [
+        0.12213689088821411,
+        0.5293537974357605,
+        1.1777801513671875
+      ],
+      "min": [
+        -1.1472264528274536,
+        -0.23726443946361542,
+        -1.1305694580078125
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 3173916,
+      "componentType": 5126,
+      "count": 2365,
+      "max": [
+        0.8721089363098145,
+        0.9979333281517029,
+        0.9999833106994629
+      ],
+      "min": [
+        -0.9816709160804749,
+        -0.9933242797851563,
+        -0.9985495209693909
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 2097024,
+      "componentType": 5126,
+      "count": 2365,
+      "max": [
+        0.9999868273735046,
+        0.9989567995071411,
+        0.9507248997688293,
+        1.0
+      ],
+      "min": [
+        -0.9998418092727661,
+        -0.9999596476554871,
+        -0.9350571632385254,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1048512,
+      "componentType": 5126,
+      "count": 2365,
+      "max": [
+        0.9993023872375488,
+        0.983866810798645
+      ],
+      "min": [
+        0.004378305282443762,
+        0.08466732501983643
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 3046788,
+      "componentType": 5125,
+      "count": 12447,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Get Learnt w/ Chunck (https://sketchfab.com/GetLearnt)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/chain-link-fence-material-f36fc213641449db8aa8e29248868c1e",
+      "title": "Chain Link fence Material"
+    },
+    "generator": "Sketchfab-12.68.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 3096576,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1067432,
+      "byteOffset": 3096576,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3202296,
+      "byteOffset": 4164008,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2134864,
+      "byteOffset": 7366304,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 9501168,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Chainlink_Fence_baseColor.png"
+    },
+    {
+      "uri": "textures/Chainlink_Fence_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Chainlink_Fence_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "Chainlink_Fence",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Sphere_Chainlink Fence_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Sphere_Chainlink Fence_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Sphere_Chainlink Fence_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 11,
+            "POSITION": 10,
+            "TANGENT": 12,
+            "TEXCOORD_0": 13
+          },
+          "indices": 14,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "73044e79e48941af8bd7bb6778abb484.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        5,
+        6
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sphere"
+    },
+    {
+      "mesh": 0,
+      "name": "Sphere_Chainlink Fence_0"
+    },
+    {
+      "mesh": 1,
+      "name": "Sphere_Chainlink Fence_0"
+    },
+    {
+      "mesh": 2,
+      "name": "Sphere_Chainlink Fence_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}

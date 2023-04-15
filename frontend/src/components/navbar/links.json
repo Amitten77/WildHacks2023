@@ -1,0 +1,21 @@
+{
+    "links": [
+        {
+            "label": "Robert",
+            "href": "/robert"
+        },
+        {
+            "label": "Nancy",
+            "href": "/nancy"
+        },
+        {
+            "label": "Connect Wallet",
+            "href": "/connectwallet"
+        },
+        {
+            "label": "Profile",
+            "href": "/profile"
+        }
+
+    ]
+}
