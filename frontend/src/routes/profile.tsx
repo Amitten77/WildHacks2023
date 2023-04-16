@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
+import { ChangeEvent } from "react";
+import ImageUpload from "../components/ImageUpload.jsx"
 
 interface profileProps {}
 
@@ -11,8 +13,9 @@ interface profileProps {}
 //   return <img src={imageToAdd} alt="Image" />
 // }
 
-export class Profile extends React.Component<{}, {}> {
-  render() {
+
+//export class Profile extends React.Component<{}, {}> {
+export function Profile() {
     const css = `
     .bg {
       margin-top: 50px;
@@ -35,7 +38,7 @@ export class Profile extends React.Component<{}, {}> {
       width: 400px;
       height: 250px;
       border-radius: 50px;
-      box-shadow: 0 4px 8px 0 #15CDCA, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      box-shadow: 0 4px 8px 0 #d1fc42, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     .instagram {
       z-index = 10;
@@ -49,7 +52,7 @@ export class Profile extends React.Component<{}, {}> {
       width: 70px;
       height: 70px;
       border-radius: 20px;
-      box-shadow: 0 4px 8px 0 #15CDCA, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      box-shadow: 0 4px 8px 0 #d1fc42, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     .instaimage {
       margin-top: 6px;
@@ -69,7 +72,7 @@ export class Profile extends React.Component<{}, {}> {
       width: 70px;
       height: 70px;
       border-radius: 20px;
-      box-shadow: 0 4px 8px 0 #15CDCA, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      box-shadow: 0 4px 8px 0 #d1fc42, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     .twitterimage {
       margin-top: 6px;
@@ -89,7 +92,7 @@ export class Profile extends React.Component<{}, {}> {
       width: 70px;
       height: 70px;
       border-radius: 20px;
-      box-shadow: 0 4px 8px 0 #15CDCA, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      box-shadow: 0 4px 8px 0 #d1fc42, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     .devianartimage {
       margin-top: 6px;
@@ -109,23 +112,23 @@ export class Profile extends React.Component<{}, {}> {
       width: 800px;
       height: 400px;
       border-radius: 50px;
-      box-shadow: 0 4px 8px 0 #15CDCA, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      box-shadow: 0 4px 8px 0 #d1fc42, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     h1 {
       margin-left: 50px;
       font-size: 70px;
       font-family: 'Gloock', serif;
-      color: #4FE0B6;
+      color: #d1fc42;
     }
     h2 {
       margin-left: 20px;
       font-size: 30px;
       margin-top: 5px;
       font-family: 'Gloock', serif;
-      color: #4FE0B6;
+      color: #d1fc42;
     }
     p {
-      color: #4FE0B6;
+      color: #d1fc42;
       font-family: 'Gloock', serif;
       margin-right: 20px;
       margin-left: 30px;
@@ -137,15 +140,23 @@ export class Profile extends React.Component<{}, {}> {
       margin-left: 30px;
       margin-right: 30px;
     }
+    .uploadImage {
+      margin-top: 500px;
+    }
+    .art {
+      height: 500px;
+      width: 900px;
+      background-color: blue;
+      margin-left: 600px;
+    }
 
     `
+
     return (
       <div className="Profile">
-        <div className = "bg">
-          <style>
+        <style>
             {css}
           </style>
-        </div>
         <div className="header">
             <h1>Sir Squirt, Alina Jr</h1>
         </div>
@@ -153,17 +164,16 @@ export class Profile extends React.Component<{}, {}> {
             <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" className = "instaimage"/>
         </div>
         <div className="twitter">
-        <img src="https://www.edigitalagency.com.au/wp-content/uploads/Twitter-logo-png.png" className = "twitterimage"/>
+          <img src="https://www.edigitalagency.com.au/wp-content/uploads/Twitter-logo-png.png" className = "twitterimage"/>
         </div>
         <div className="devianart">
-        <img src="https://freepngimg.com/save/12703-deviantart-logo-transparent/1280x1000" className = "twitterimage"/>  
+          <img src="https://freepngimg.com/save/12703-deviantart-logo-transparent/1280x1000" className = "twitterimage"/>  
         </div>
-        <div className="collage">
-            <h2>D</h2>
+        <div className="art">
+          <ImageUpload />
         </div>
+
       </div>
     )
-  }
 }
-
 export default Profile;
