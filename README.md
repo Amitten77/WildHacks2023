@@ -2,8 +2,6 @@
 
 Welcome to our Project, WildPrompts! In this README, we'll be describing both what this project is and how we did it. 
 
-
-
 ## What is our project and why should you care?
 
 Our project serves as a hub for artists to buy NFTs using a smart contract, classifies the image that an artist inputs, and generates a prompt if an artist needs ideas for their art. Artists can view their profile for the NFTs they purchased and their withstanding balance, thus essentially having our project be an open market in the digital transformation of art. Mostly importantly, WildPrompts is a platform for users to sell the prompts associated with their NFTs, because as WIRED cited, the art of prompting is just as important as the art. Good prompts can be used to generate other strong art.
