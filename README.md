@@ -1,8 +1,17 @@
 # WildPrompts x WildHacks2023
 
-Welcome to our Project, WildPrompts! In this ReadME, we'll be describing both what this project is and how we did it. 
+Welcome to our Project, WildPrompts! In this README, we'll be describing both what this project is and how we did it. 
 
 ## What is our project and why should you care?
+
+Our project serves as a hub for artists to buy NFTs using a smart contract, classifies the image that an artist inputs, and generates a prompt if an artist needs ideas for their art. Artists can view their profile for the NFTs they purchased and their withstanding balance, thus essentially having our project be an open market in the digital transformation of art.
+
+This idea came to fruition through a WIRED article, Where the AI Art Boom Came From—and Where It’s Going, which discussed the automation of creative work since 2014 to now. Last year especially had a boom in algorithmic generation for illustrations, art, and photo-real scenes, with an example being TikTok's text-to-image generation that users can make custom greenscreens with. Although this generator pales in comparison to advanced generators such as Midjourney or OpenAI's DALL-E, TikTok's feature lead to an explosion in popularity of AI generated art as it was not limited in terms of who can use it's software compared to said advanced generators.
+
+Thus as avid artists ourselves, we wanted to create a platform for everyday artists who wanted an easy and acccessible way to sell their NFTs so there are no limits on one's artistic vision.
+
+The future of art is here :).
+
 
 ## How did we utilize Blockchain, Machine Learning, Cloud Computing, and Graphic Design technologies to make this project work
 
