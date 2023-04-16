@@ -30,7 +30,7 @@ const Navbar: React.FC<{}> = () => {
   return (
     <nav className={styles.navbar}>
           <div className={styles['logo-container']}>
-                <a href={"/"}><span>Project Name</span></a>
+                <a href={"/"}><span>WildPrompts</span></a>
             </div>
             <Links links={links} />
     </nav>

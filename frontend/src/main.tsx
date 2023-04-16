@@ -4,11 +4,11 @@ import './index.css'
 import { Root } from "./routes/root";
 import { Profile } from "./routes/profile"
 import { Home } from "./routes/homepage"
-//import { Nancy } from "./routes/nancy"
 import Connect from './routes/connect';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ErrorPage from "./error-page";
 import Marketplace from './routes/marketplace';
+import Test from './routes/test'
 
 const router = createBrowserRouter([
   {
@@ -26,9 +26,13 @@ const router = createBrowserRouter([
         element: <Marketplace />,
       },
       {
-        path: "connectwallet",
+        path: "wildprompt",
         element: <Connect />,
       },
+      {
+        path: "test",
+        element: <Test/>,
+      }
     ],
   },
 ]);

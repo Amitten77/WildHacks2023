@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { ChangeEvent } from "react";
-import ImageUpload from "../components/ImageUpload.jsx"
+import ImageUpload from "../components/navbar/ImageUpload.jsx";
 
 interface profileProps {}
 
@@ -115,41 +115,63 @@ export function Profile() {
       box-shadow: 0 4px 8px 0 #d1fc42, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     h1 {
-      margin-left: 50px;
+      margin-left: 20px;
       font-size: 70px;
       font-family: 'Gloock', serif;
       color: #d1fc42;
-    }
-    h2 {
-      margin-left: 20px;
-      font-size: 30px;
-      margin-top: 5px;
-      font-family: 'Gloock', serif;
-      color: #d1fc42;
+      margin-top: -5px;
     }
     p {
       color: #d1fc42;
       font-family: 'Gloock', serif;
       margin-right: 20px;
       margin-left: 30px;
+      margin-top: 10px;
     }
-    .bar {
-      border: 1px dotted white;
-      border-radius: 50px;
-      margin-top: -30px;
-      margin-left: 30px;
-      margin-right: 30px;
+    h2 {
+      font-family: 'Gloock', serif;
+      color: #e635E4;
+      margin-left: 16px;
+      margin-top: -10px;
     }
-    .uploadImage {
-      margin-top: 500px;
+    .row {
+      margin-top: -300px;
+      margin-left: 70px;
     }
-    .art {
-      height: 500px;
-      width: 900px;
-      background-color: blue;
+    .balance {
+      margin-left: 10px;
+      margin-top: -60px;
+    }
+    .blur {
+      border-radius: 20px;
+      box-shadow: 0 4px 8px 0 #d1fc42, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      margin-left: 70px;
+      height: 300px;
+      width: 400px;
+    }
+    #balancetext {
+      margin-top: 80px;
+      margin-left: 10px;
+    }
+    .purchases {
+      margin-top: 160px;
+    }
+    .blur2 {
+      border-radius: 20px;
+      box-shadow: 0 4px 8px 0 #d1fc42, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       margin-left: 600px;
+      height: 600px;
+      width: 800px;
     }
-
+    button {
+      background-color: #E635E4;
+      color: #d1fc42;
+      font-family: 'Gloock', serif;
+    }
+    img {
+      margin-left: 20px;
+      border-radius: 30px;
+    }
     `
 
     return (
@@ -157,8 +179,23 @@ export function Profile() {
         <style>
             {css}
           </style>
-        <div className="header">
-            <h1>Sir Squirt, Alina Jr</h1>
+        <div className="yes">
+          <div className="blur2">
+            <div className="purchases">
+              <h1>Purchases</h1>
+              <div id="chip">
+                <img src = "https://images.albertsons-media.com/is/image/ABS/970031792?$ng-ecom-pdp-desktop$&defaultImage=Not_Available" alt="chip" height={'200px'}></img>
+                <p>doritos</p>
+                <p>an ordinary Bag of Doritos.</p>
+                <p>DG123</p>
+                <p>2 hbar</p>
+              </div>
+            </div>
+          </div>
+          <div className="header">
+            <p>Hello,</p>
+            <h1>WildHacker</h1>
+          </div>
         </div>
         <div className="instagram">
             <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" className = "instaimage"/>
@@ -169,10 +206,15 @@ export function Profile() {
         <div className="devianart">
           <img src="https://freepngimg.com/save/12703-deviantart-logo-transparent/1280x1000" className = "twitterimage"/>  
         </div>
-        <div className="art">
-          <ImageUpload />
+        <div className="row">
+            <button>Connect Wallet</button>
         </div>
-
+        <div className="blur">
+          <div className="balance">
+              <h1 id="balancetext">Balance</h1>
+              <h2>10000 hbar</h2>
+          </div>
+        </div>
       </div>
     )
 }

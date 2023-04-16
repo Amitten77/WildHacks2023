@@ -6,8 +6,8 @@ const {
   } = require("@hashgraph/sdk");
   require("dotenv").config();
 
-const operatorId = AccountId.fromString(process.env.OPERATOR_ID);
-const operatorKey = PrivateKey.fromString(process.env.OPERATOR_PVKEY);
+const operatorId = AccountId.fromString(process.env.MY_ACCOUNT_ID);
+const operatorKey = PrivateKey.fromString(process.env.MY_PRIVATE_KEY);
 const client = Client.forTestnet().setOperator(operatorId, operatorKey);
 //Create the account balance query
 async function main() {

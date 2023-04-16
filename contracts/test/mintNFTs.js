@@ -107,16 +107,8 @@ async function main(tokenName, object_name, imagePath) {
     const mintRx = await mintTxSubmit.getReceipt(client);
   
     //Log the serial number
-    console.log(
-      `- Created NFT ${tokenId} with serial: ${mintRx.serials[0].low} \n`
-    );
-  
-    //Log the serial number
-    console.log(
-      `- Created NFT ${tokenId} with serial: ${mintRx.serials[0].low} \n`
-    );
-    return;
+    return "https://hashscan.io/testnet/token/" + tokenId;
   }
 
 
-  main("SWATHITKN", "Swathi", "../images/WildLogo.png");
+  main("DG123", "Doritos", "../images/doritos.webp");

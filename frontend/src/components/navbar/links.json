@@ -5,13 +5,12 @@
             "href": "/marketplace"
         },
         {
-            "label": "Connect Wallet",
-            "href": "/connectwallet"
+            "label": "Prompt Generator",
+            "href": "/wildprompt"
         },
         {
             "label": "Profile",
             "href": "/profile"
         }
-
     ]
 }

@@ -116,8 +116,7 @@ export class Home extends React.Component<{}, {}> {
         </div>
         <div className="text">
             <h1>Welcome.</h1>
-            <p>Hi. This is the metaverse. I am about to fail CS173. Anyways, make sure to change this text to describe what
-              this code does.
+            <p>Welcome to WildPrompts! As AI image/text generators become more mainstream, knowing the best prompts is critical for success with these tools. Our platform provides you with the oppurtunity to buy prompts from other creative users along with NFTs of their artwork. If you want to create your own generative art and need help, use our Prompt Generator. Enjoy!
             </p>
         </div>
         <div className="row">
